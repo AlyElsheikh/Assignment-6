@@ -391,7 +391,7 @@ header p::after {
 }
 
 .contact h3 {
-  font-size: 1.9rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
   position: relative;
 }
@@ -676,4 +676,8 @@ footer div {
   header h1 {
     font-size: 45px;
   }
+
+  .contact h3 {
+    font-size: 1.8rem;
+}
 }
