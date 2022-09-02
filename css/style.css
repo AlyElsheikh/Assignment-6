@@ -365,11 +365,7 @@ header p::after {
 }
 
 
-
-
-
-/*  */
-
+/* ########### BLOG ########### */
 .contact{
   background-image: linear-gradient(to right, rgba(0, 120, 255,.7) , rgba(0, 120, 255,.7)) ,url("../images/overlay-bg.jpg");
   background-repeat: no-repeat;
@@ -476,9 +472,24 @@ header p::after {
   color: var(--white);
 }
 
+/* FOOTER */
 
+footer{
+  background-color: #0062d3;
+  padding: 1.5rem 0;
+}
+footer div,
+footer div a,
+footer div a:hover,
+footer p{
+  color: var(--white);
+  text-decoration: none;
+  margin-bottom: 0;
+}
 
-
+footer div{
+  margin-top: 7px;
+}
 
 
 
@@ -652,6 +663,7 @@ header p::after {
     align-items: center;
     right: 1rem;
     bottom: 1rem;
+    text-decoration: none;
     background-color: var(--blue);
     visibility: hidden;
     opacity: 0;
